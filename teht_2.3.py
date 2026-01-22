@@ -1,15 +1,8 @@
-import math
+kanta = float(input("Suorakulmion kanta: "))
+korkeus = float(input("Suorakulmion korkeus: "))
 
-pintala: float
-piiri: float
+pinta_ala = kanta * korkeus
+piiri = 2 * (kanta + korkeus)
 
-Kanta: float = float(input("Kolmion kanta: "))
-Korkeus: float = float(input("Kolmion korkeus: "))
-
-pintala = (Kanta * Korkeus) / 2
-
-sivu = math.sqrt((Kanta / 2) ** 2 + Korkeus ** 2)
-piiri = Kanta + 2 * sivu
-
-print(f"Kolmion pinta-ala on: {pintala:.2f}")
-print(f"Kolmion piiri on: {piiri:.2f}")
+print(f"Suorakulmion pinta-ala on: {pinta_ala:.2f}")
+print(f"Suorakulmion piiri on: {piiri:.2f}")
