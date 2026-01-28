@@ -16,8 +16,8 @@ hinta2 = float(input("Anna hinta euroina: "))
 yh1 = yksikkohinta(halkaisija1, hinta1)
 yh2 = yksikkohinta(halkaisija2, hinta2)
 
-print(f"\nPizza 1 yksikköhinta: {yh1:.2f} €/m²")
-print(f"Pizza 2 yksikköhinta: {yh2:.2f} €/m²")
+print(f"\nPizza 1 yksikköhinta: {yh1:.2f} €/m\u00B2")
+print(f"Pizza 2 yksikköhinta: {yh2:.2f} €/m\u00B2")
 
 if yh1 < yh2:
     print("Pizza 1 antaa paremman vastineen rahalle.")
